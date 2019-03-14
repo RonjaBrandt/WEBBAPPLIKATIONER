@@ -1,0 +1,48 @@
+ul {
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  flex-basis: auto;
+}
+
+
+li {
+  list-style: none;
+  float: left;
+
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+
+  padding: 10px 15px;
+
+  border: 5px solid gray;
+
+  margin: 10px 15px;
+
+  background: yellow;
+}
+
+ul::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+table {
+  background: gray;
+}
+
+thead {
+  background: yellow;
+}
+
+tfoot {
+  background: red;
+}
